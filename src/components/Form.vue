@@ -65,7 +65,11 @@ export default {
     // función para chequear los inputs
     checkInputs() {
       this.canSave = true;
-      if (this.firstName.trim().length < 2 || this.lastName.trim().length < 2) {
+      if (
+        this.firstName.trim().length < 2 ||
+        this.lastName.trim().length < 2 ||
+        this.address.trim().length < 2
+      ) {
         this.canSave = false;
       }
 
@@ -77,9 +81,9 @@ export default {
     // función para pasarle al Home el objeto a guardar
     save() {
       let formulario = {
-        firstName: this.firstName,
-        lastName: this.lastName,
-        address: this.address,
+        firstName: this.firstName.trim(),
+        lastName: this.lastName.trim(),
+        address: this.address.trim(),
         ssn: this.ssn,
       };
       this.$emit("save", formulario);
