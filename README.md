@@ -36,7 +36,7 @@ A continuación, se presenta la estructura de directorios del proyecto:
 
 &nbsp;
 
-Configurar en .env la url del backend
+Crear y configurar el archivo .env la url del backend (se provee un ejemplo)
 
 ## Prueba Local
 
