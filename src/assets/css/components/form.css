@@ -1,0 +1,30 @@
+.form {
+  padding: 2vw 1vw;
+  background-color: #fff;
+}
+.form-input {
+  display: block;
+  width: 100%;
+  height: 3vw;
+  margin-bottom: 1vw;
+  box-sizing: border-box;
+  padding-left: 1vw;
+}
+.form-btn-container {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  column-gap: 60%;
+  width: 60%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2vw;
+}
+.form-btn {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #000;
+  cursor: pointer;
+}

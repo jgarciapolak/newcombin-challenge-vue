@@ -1,0 +1,24 @@
+.table-container {
+  max-height: 60vh;
+  height: 100%;
+  background-color: #fff;
+  overflow-y: auto;
+}
+.table {
+  background-color: #fff;
+  width: 100%;
+  border-collapse: collapse;
+}
+.table,
+td,
+th {
+  border: 1px solid;
+}
+
+td {
+  text-align: center;
+}
+
+.table-row {
+  height: 2vw;
+}
